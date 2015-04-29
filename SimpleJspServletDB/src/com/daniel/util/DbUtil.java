@@ -24,8 +24,8 @@ public class DbUtil {
            //     prop.load(inputStream);               
                 String driver = "com.mysql.jdbc.Driver";
                 String url = "jdbc:mysql://localhost:3306/UserDB";
-                String user = "testuser1";
-                String password = "password";
+                String user = "root";
+                String password = "qwerty";
                 System.out.println(driver +"--------" + url + "user = " +  user + " password = " + password);
                 Class.forName(driver);
                 connection = DriverManager.getConnection(url, user, password);
