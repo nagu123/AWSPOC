@@ -9,6 +9,9 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.Properties;
 
+
+
+
 public class DbUtil {
 	private static Connection connection = null;
 
